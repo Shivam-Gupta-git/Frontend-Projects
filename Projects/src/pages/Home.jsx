@@ -12,6 +12,10 @@ import QrCode from '../project/QrCode'
 import ScrollIndicator from '../project/ScrollIndicator'
 import Sidebar from '../project/Sidebar'
 import CurrencyConverter from '../project/CurrencyConverter'
+import BookHavenStore from '../project/BookHavenStore'
+import CrunchuSnacks from '../project/CrunchuSnacks'
+import StudyMate from '../project/StudyMate'
+import Portfolio from '../project/Portfolio'
 
 
 function Home() {
@@ -114,6 +118,39 @@ function Home() {
       buttonText: 'Explore',
       path: '/currency-converter',
       color: 'bg-[#2a9d8f]'
+    },
+    {
+      Component: BookHavenStore,
+      title: 'Book Haven Store',
+      description: 'Book Haven Store',
+      buttonText: 'Explore',
+      path: 'https://book-haven-two-tau.vercel.app/Home.html',
+      color: 'bg-[#f5ebe0]'
+    },
+    {
+      Component: CrunchuSnacks,
+      title: 'Crunchy Snacks',
+      description: 'Crunchy Snacks',
+      buttonText: 'Explore',
+      path: 'https://crunchy-snack-shop.vercel.app/index%202.html',
+      color: 'bg-[#eaf2d7]'
+
+    },
+    {
+      Component: StudyMate,
+      title: 'Study Mate',
+      description: 'Study Mate',
+      buttonText: 'Explore',
+      path: 'https://study-mate-flame.vercel.app',
+      color: 'bg-[#e27396]'
+    },
+    {
+      Component: Portfolio,
+      title: 'Student Portfolio',
+      description: 'Student Portfolio',
+      buttonText: 'Explore',
+      path: 'https://rituportfolio.vercel.app',
+      color: 'bg-[#e29578]'
     }
 
     // Add more projects dynamically

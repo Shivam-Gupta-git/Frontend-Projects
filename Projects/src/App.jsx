@@ -2,7 +2,7 @@ import './App.css'
 import Home from './pages/Home'
 import Shoes from './Components/Shoes Landing Page/Shoes'
 import Carousel from './Components/carousel/Carousel'
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes, Link } from 'react-router-dom'
 import FoodItem from './Components/Food Items Filter/FoodItem'
 import SingleSelectionAccordion from './Components/SINGLE SELECTION ACCORDION/SingleSelectionAccordion'
 import MultiSelectionAccordion from './Components/Multi Selection Accordion/MultiSelectionAccordion'
@@ -13,6 +13,7 @@ import QrCodeGeneratorApp from './Components/QrCode Generator/QrCodeGeneratorApp
 import ScrollIndicatorApp from './Components/Scroll Indicator/ScrollIndicatorApp'
 import SideBarApp from './Components/SideBar/SideBarApp'
 import CurrencyConverterApp from './Components/Currency Converter/CurrencyConverterApp'
+
 
 
 function App() {
