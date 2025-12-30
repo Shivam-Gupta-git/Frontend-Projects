@@ -16,6 +16,7 @@ import BookHavenStore from '../project/BookHavenStore'
 import CrunchuSnacks from '../project/CrunchuSnacks'
 import StudyMate from '../project/StudyMate'
 import Portfolio from '../project/Portfolio'
+import Pokemon from '../project/Pokemon'
 
 
 function Home() {
@@ -151,6 +152,14 @@ function Home() {
       buttonText: 'Explore',
       path: 'https://rituportfolio.vercel.app',
       color: 'bg-[#e29578]'
+    },
+    {
+      Component: Pokemon,
+      title: 'Pokémon Pokédex',
+      description: 'I recently built a Pokédex web application using React.js and Tailwind CSS to showcase all Pokémon with their images and basic details in a modern, responsive grid layout. This project demonstrates my skills in: •	React Hooks – useState, useEffect for dynamic data fetching •	API Integration – fetching data from the PokéAPI •	Asynchronous JavaScript – handling multiple API calls efficiently •	Tailwind CSS – creating responsive, interactive, and visually appealing UI •	Component Design – modular and reusable React components',
+      buttonText: 'Explore',
+      path: '/pokemon',
+      color: 'bg-[#0a9396]'
     }
 
     // Add more projects dynamically
@@ -186,7 +195,7 @@ function Home() {
               {/* Project Info */}
               <div className="w-full lg:w-1/2 flex flex-col gap-4 text-center lg:text-left">
                 <h2 className="text-2xl font-bold text-gray-800">{project.title}</h2>
-                <p className="text-gray-600">{project.description}</p>
+                <p className="text-gray-600 sm:text-[12px] text-[8px]">{project.description}</p>
                 <button
                   onClick={() => navigate(project.path)}
                   className="self-center lg:self-start bg-red-600 text-white px-6 py-2 rounded-lg shadow-lg hover:bg-red-700 transition"

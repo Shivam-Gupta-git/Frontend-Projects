@@ -13,6 +13,7 @@ import QrCodeGeneratorApp from './Components/QrCode Generator/QrCodeGeneratorApp
 import ScrollIndicatorApp from './Components/Scroll Indicator/ScrollIndicatorApp'
 import SideBarApp from './Components/SideBar/SideBarApp'
 import CurrencyConverterApp from './Components/Currency Converter/CurrencyConverterApp'
+import PokemonApp from './Components/Pokemon/PokemonApp'
 
 
 
@@ -39,6 +40,7 @@ function App() {
           <Route path='/scrolling-indicator' element={<ScrollIndicatorApp/>}></Route>
           <Route path='/side-bar' element={<SideBarApp/>}></Route>
           <Route path='/currency-converter' element={<CurrencyConverterApp/>}></Route>
+          <Route path='/pokemon' element={<PokemonApp/>}></Route>
 
         </Routes>
     </>
