@@ -3,8 +3,8 @@ import React, { useEffect, useState } from "react";
 function PokemonApp() {
   const [pokemonList, setPokemonList] = useState([]);
   const [loading, setLoading] = useState(true);
-  const [selectedPokemon, setSelectedPokemon] = useState(null); // ✅ store clicked Pokémon
-  const [modalOpen, setModalOpen] = useState(false); // ✅ modal state
+  const [selectedPokemon, setSelectedPokemon] = useState(null); 
+  const [modalOpen, setModalOpen] = useState(false); 
 
   useEffect(() => {
     const fetchAllPokemon = async () => {
