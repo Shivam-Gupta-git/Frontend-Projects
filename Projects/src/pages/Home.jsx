@@ -17,6 +17,7 @@ import CrunchuSnacks from '../project/CrunchuSnacks'
 import StudyMate from '../project/StudyMate'
 import Portfolio from '../project/Portfolio'
 import Pokemon from '../project/Pokemon'
+import Pagination from '../project/Pagination'
 
 
 function Home() {
@@ -160,6 +161,10 @@ function Home() {
       buttonText: 'Explore',
       path: '/pokemon',
       color: 'bg-[#0a9396]'
+    },
+    {
+      Component: Pagination,
+      title: 'Pagination'
     }
 
     // Add more projects dynamically

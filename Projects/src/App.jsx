@@ -14,6 +14,7 @@ import ScrollIndicatorApp from './Components/Scroll Indicator/ScrollIndicatorApp
 import SideBarApp from './Components/SideBar/SideBarApp'
 import CurrencyConverterApp from './Components/Currency Converter/CurrencyConverterApp'
 import PokemonApp from './Components/Pokemon/PokemonApp'
+import PaginationApp from './Components/Pagination/PaginationApp'
 
 
 
@@ -41,6 +42,7 @@ function App() {
           <Route path='/side-bar' element={<SideBarApp/>}></Route>
           <Route path='/currency-converter' element={<CurrencyConverterApp/>}></Route>
           <Route path='/pokemon' element={<PokemonApp/>}></Route>
+          <Route path='/Pagination' element={<PaginationApp/>}></Route>
 
         </Routes>
     </>
