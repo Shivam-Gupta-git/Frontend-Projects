@@ -27,7 +27,7 @@ function Pagination() {
        onClick={() => navigate('/Pagination')}
      >
        <img
-         src="/images/carousel.png"
+         src="/images/Pagination.png"
          alt="Carousel Project"
          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
        />

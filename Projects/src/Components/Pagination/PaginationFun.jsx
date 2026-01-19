@@ -5,7 +5,7 @@ function PaginationFun() {
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(0);
 
-  const limit = 10;
+  const limit = 12;
   const totalPage = Math.ceil(100 / limit);
   console.log(totalPage);
 
@@ -39,9 +39,12 @@ function PaginationFun() {
 
   if (loading) {
     return (
-      <h1 className="text-center text-2xl mt-10 font-semibold">
-        Loading products...
-      </h1>
+      <div className="flex items-center justify-center h-screen bg-gray-50">
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+          <p className="mt-4 text-gray-600 text-sm">Loading users...</p>
+        </div>
+      </div>
     );
   }
 
@@ -97,7 +100,7 @@ function PaginationFun() {
         >
           Prev
         </button>
-        {[...Array(totalPage/2)].map((_, index) => (
+        {[...Array(totalPage)].map((_, index) => (
           <button
             key={index}
             onClick={() => handelPageClick(index)}

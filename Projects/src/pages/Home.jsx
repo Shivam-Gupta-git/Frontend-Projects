@@ -164,7 +164,11 @@ function Home() {
     },
     {
       Component: Pagination,
-      title: 'Pagination'
+      title: 'Pagination',
+      description: 'Instead of showing all page numbers, I used windowed pagination logic so the page buttons slide naturally as users navigate — the same pattern used by platforms like Amazon and Flipkart. This approach keeps the UI clean, improves performance, and scales well for large datasets. Always enjoying turning small UI components into production-ready features',
+      buttonText: 'Explore',
+      path: '/Pagination',
+      color:'bg-[#cdb4db]'
     }
 
     // Add more projects dynamically
