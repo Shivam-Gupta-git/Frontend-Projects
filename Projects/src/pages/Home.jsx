@@ -18,6 +18,7 @@ import StudyMate from '../project/StudyMate'
 import Portfolio from '../project/Portfolio'
 import Pokemon from '../project/Pokemon'
 import Pagination from '../project/Pagination'
+import PizzaBooking from '../project/PizzaBooking'
 
 
 function Home() {
@@ -169,6 +170,13 @@ function Home() {
       buttonText: 'Explore',
       path: '/Pagination',
       color:'bg-[#cdb4db]'
+    },
+    {
+      Component: PizzaBooking,
+      title: 'Pizza Booking website',
+      description: '',
+      buttonText: 'Explore',
+      path:'https://pizza-booking-web.vercel.app/Home.html'
     }
 
     // Add more projects dynamically
